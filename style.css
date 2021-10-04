@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+    background: rgb(249, 255, 255);
+}
+
+.contanier{
+    text-align: center;
+    height: 100%;
+    padding: 5%;
+}
+
+.contanier .box h3{
+    border-radius: 2px;
+    padding: 2%;
+    color: rgb(255, 255, 255);
+    background-color: #0af;
+}
+
+.contanier .box h1{
+    padding: 15% 5% 15% 5%;
+}
+
+.contanier .box span{
+    font-weight: 450;
+    font-size: 3em;
+    color: rgb(3, 1, 99);
+}
+
+.contanier .box del{
+    color: rgba(161, 161, 161, 0.788);
+}
+
+.contanier .box{
+    position:relative;
+    background: #fff;
+    width: 17%;
+    height: 50%;
+    display: inline-block;
+    border: 1px solid rgba(192, 192, 192, 0.466);
+    border-radius: 4px;
+    transition: all .2s ease-in-out;
+}
+
+.contanier .box:hover{
+    top:-4px;
+    box-shadow:0 4px 3px #999;
+}
+
+.contanier .box ul li span{
+    color: #aaa;
+    font-size: small;
+}
+
+.contanier .box ul{
+    list-style: none;
+    width: 120px;
+    margin: 20% auto 10%;
+    padding: 15px 0 0 15px;
+    border-top: 1px solid #e5ded6;
+    text-align: left;
+}
+
+/*=================================== Popular ======================================*/
+
+#popular{
+    background: #fff;
+    width: 17%;
+    height: 50%;
+    display: inline-block;
+    border: 1px solid rgb(128, 120, 160);
+    border-radius: 4px;
+    transition: all .2s ease-in-out;
+    position: relative;
+}
+
+#popular:hover{
+    top:-4px;
+    box-shadow:0 4px 3px #999;
+}
+
+#popular h3, h4{
+    color: #fff;
+    background: rgb(128, 120, 160);
+}
+
+#popular h4{
+    padding: 12px 12px 12px;
+}
+
+#popular span{
+    font-weight: 450;
+    font-size: 3em;
+    color: rgb(3, 1, 99);
+}
+
+#popular ul li span{
+    color: #aaa;
+    font-size: small;
+}
+
+#popular ul{
+    margin: 20% auto 10%;
+    list-style: none;
+    width: 120px;
+    padding: 15px 0 0 15px;
+    border-top: 1px solid #e5ded6;
+    text-align: left;
+}
+
+#popular h1{
+    padding: 20% 5% 20% 5%;
+}
+
+#popular del{
+    color: rgba(161, 161, 161, 0.788);
+}
+
+/*=================================== Responsividade ======================================*/
+
+@media only screen and (max-width: 959px) {
+
+    .contanier{
+        text-align: center;
+        height: 100%;
+        padding: 35% 4% 2% 0%;
+    }
+
+    .contanier .box h3{
+        font-size: 15px;
+        padding: 2%;
+    }
+
+    .contanier .box h1{
+        padding: 15% 5% 15% 5%;
+    }
+
+    .contanier .box span{
+        font-weight: 450;
+        font-size: 2em;
+    }
+
+    .contanier .box{
+        width: 29%;
+        height: 50%;
+    }
+
+    .contanier .box ul li span{
+        font-size: 11px;
+    }
+
+    .contanier .box ul{
+        border-top: medium;
+        width: 120px;
+        margin: 20% auto 10%;
+        padding: 15px 0 0 15px;
+    }
+
+    .contanier .box sup, sub{
+        font-size: 15px;
+    }
+
+    .contanier .box del{
+        font-size: 13px;
+    }
+
+/*=================================== Popular ======================================*/
+
+    #popular{
+        width: 29%;
+        height: 50%;
+    }
+
+    #popular h4{
+        font-size: 11px;
+        padding: 12px 12px 12px;
+    }
+
+    #popular span{
+        font-weight: 450;
+        font-size: 2em;
+    }
+
+    #popular ul li span{
+        font-size: 11px;
+    }
+
+    #popular ul{
+        border-top: medium;
+    }
+
+    #popular h1{
+    padding: 20% 5% 20% 5%;
+    }
+
+    #popular sup, sub{
+        font-size: 15px;
+    }
+
+    #popular del{
+        font-size: 13px;
+    }
+
+    #popular h3, h4{
+        padding: 2px;
+        font-size: 15px;
+    }
+}
